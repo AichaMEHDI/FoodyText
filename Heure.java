@@ -8,4 +8,11 @@ public class Heure{
 
 	}
 
+	public int getHeure(){
+	}
+	
+	public int getMinutes(){
+		
+	}
+	
 }
