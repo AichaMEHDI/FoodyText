@@ -2,7 +2,7 @@ public class Heure{
 
 	private int heures;
 	private int minutes;
-	
+
 	public Heure(int heures,int minutes){
 
 
@@ -10,9 +10,9 @@ public class Heure{
 
 	public int getHeure(){
 	}
-	
+
 	public int getMinutes(){
-		
+
 	}
 	public int setHeures(){
 		this.heures = heures;
@@ -20,4 +20,9 @@ public class Heure{
 	public int setMinutes(){
 		this.minutes = minutes;
 	}
+
+	public int ajoutMinutes(){
+		this.minutes += minutes;
+	}
+
 }
